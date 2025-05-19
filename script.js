@@ -1,9 +1,15 @@
 const dreamHoliday = {
-  destination: "",
-  activity: "",
-  accommodation: "",
-  companion: "",
+  destination: "Wadi Rum, Jordan",
+  activity: "ride a motorcycle through the red desert canyons",
+  accommodation: "glass-tented Bedouin camp under the stars",
+  companion: "my truest self",
 };
+
+const { destination, activity, accommodation, companion } = dreamHoliday;
+
+console.log(
+  `I would love to go to ${destination} to ${activity}. I'd sleep in a ${accommodation} and hang out with ${companion} all day.`
+);
 
 /* 
 Challenge
